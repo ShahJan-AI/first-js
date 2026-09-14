@@ -1,0 +1,105 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #004466;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#main-heading {
+  font-size: 2em;
+  margin: 0;
+}
+
+.intro-text {
+  font-style: italic;
+}
+
+/* About Section */
+.about-section {
+  padding: 20px;
+  background-color: #e6f2ff;
+}
+
+.about-paragraph {
+  margin-bottom: 10px;
+}
+
+/* Links Section */
+.links-section {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.links-section h2 {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #004466;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Class Schedule Table */
+.class-schedule {
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.class-schedule h2 {
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+thead {
+  background-color: #004466;
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Footer */
+.footer {
+  background-color: #004466;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-text {
+  margin: 0;
+}
